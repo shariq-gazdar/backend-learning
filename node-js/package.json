@@ -1,0 +1,22 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "node-js learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"hello world\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shariq-gazdar/backend-learning.git"
+  },
+  "keywords": [
+    "nodeJs-learingin"
+  ],
+  "author": "Shariq Gazdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shariq-gazdar/backend-learning/issues"
+  },
+  "homepage": "https://github.com/shariq-gazdar/backend-learning#readme"
+}
