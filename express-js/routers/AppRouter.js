@@ -9,8 +9,12 @@
 
 const express = require("express");
 const login = require("../controllers/Login");
+const details = require("../controllers/Emails");
+const registerNumber = require("../controllers/RegisterNumber");
 const router = express.Router();
 
-router.get("/user", login);
+router.post("/registerEmail", login);
+router.get("/details", details);
+router.post("/registerNumber", registerNumber);
 
 module.exports = router;
